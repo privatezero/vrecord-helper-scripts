@@ -1,5 +1,5 @@
 sudo apt-get install -y --no-install-recommends
-# Build drequirements from https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu 
+# Build drequirements from https://trac.ffmpeg.org/wiki/CompilationGuide/Ubuntu \
   autoconf \
   automake \
   build-essential \
@@ -28,7 +28,7 @@ sudo apt-get install -y --no-install-recommends
   libaom-dev \
   libdav1d-dev \
 
-# additional FFmpeg requirements
+# additional FFmpeg requirements \
  libx264-dev \
  libx265-dev \
  libnuma-dev \
@@ -40,7 +40,7 @@ sudo apt-get install -y --no-install-recommends
  # x11-xserver-utils \
  
  
-#gtkdialog dependencies from https://github.com/ArkThis/vrecordX/blob/main/gtkdialog/notes-ubuntu_20.04.md
+gtkdialog dependencies from https://github.com/ArkThis/vrecordX/blob/main/gtkdialog/notes-ubuntu_20.04.md \
 build-essential \
 libgtk2.0-dev \
 libgtk-3-dev \
@@ -49,4 +49,4 @@ libvte-2.91-dev \
 libgtk-layer-shell-dev \
 bison \
 flex \
-texinfo \
+texinfo
