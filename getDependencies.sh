@@ -41,7 +41,7 @@ sudo apt-get install -y --no-install-recommends
  libraw1394-dev \
  libavc1394-dev \
  libavc1394-tools \
- # x11-xserver-utils \
+ libxvidcore-dev \
  
  
 gtkdialog dependencies from https://github.com/ArkThis/vrecordX/blob/main/gtkdialog/notes-ubuntu_20.04.md \
