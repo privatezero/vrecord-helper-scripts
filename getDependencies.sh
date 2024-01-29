@@ -37,6 +37,10 @@ sudo apt-get install -y --no-install-recommends
  libopenjp2-7-dev \
  libsnappy-dev \
  libtheora0 \
+ libiec61883-dev \
+ libraw1394-dev \
+ libavc1394-dev \
+ libavc1394-tools \
  # x11-xserver-utils \
  
  
