@@ -44,7 +44,7 @@ sudo apt-get install -y --no-install-recommends
  libxvidcore-dev \
  
  
-gtkdialog dependencies from https://github.com/ArkThis/vrecordX/blob/main/gtkdialog/notes-ubuntu_20.04.md \
+# gtkdialog dependencies from https://github.com/ArkThis/vrecordX/blob/main/gtkdialog/notes-ubuntu_20.04.md \
 build-essential \
 libgtk2.0-dev \
 libgtk-3-dev \
