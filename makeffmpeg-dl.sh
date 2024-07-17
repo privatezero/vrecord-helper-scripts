@@ -1,7 +1,9 @@
 wget -O ffmpeg-5.1.4.tar.bz2 https://ffmpeg.org/releases/ffmpeg-5.1.4.tar.bz2 && \
 tar xjvf ffmpeg-5.1.4.tar.bz2 && \
+rm ffmpeg-5.1.4.tar.bz2 && \
 wget -O v10.11.2.tar.gz https://github.com/amiaopensource/SoyDecklink/archive/v10.11.2.tar.gz && \
 tar -xvzf v10.11.2.tar.gz && \
+rm v10.11.2.tar.gz && \
 cd ffmpeg-5.1.4 && \
 PATH="$HOME/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" ./configure \
   --pkg-config-flags="--static" \
