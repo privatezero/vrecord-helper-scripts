@@ -1,6 +1,6 @@
 # Helps build vrecord dependency gtkdialog 
-wget -O 0.8.4d.tar.gz https://github.com/puppylinux-woof-CE/gtkdialog/archive/refs/tags/0.8.5e.tar.gz && \
-tar -xvzf 0.8.4d.tar.gz && rm 0.8.4d.tar.gz && \
-cd gtkdialog-0.8.4d && \
+wget -O 0.8.5e.tar.gz https://github.com/puppylinux-woof-CE/gtkdialog/archive/refs/tags/0.8.5e.tar.gz && \
+tar -xvzf 0.8.5e.tar.gz && rm 0.8.5e.tar.gz && \
+cd gtkdialog-0.8.5e && \
 ./autogen.sh && \
 make
