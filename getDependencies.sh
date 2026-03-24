@@ -42,7 +42,6 @@ libxvidcore-dev \
 build-essential \
 libgtk2.0-dev \
 libgtk-3-dev \
-libvte-dev \
 libvte-2.91-dev \
 libgtk-layer-shell-dev \
 bison \
